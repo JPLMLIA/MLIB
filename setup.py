@@ -1,5 +1,8 @@
+import os
+
 from setuptools import find_packages, setup
-with open('requirements.txt') as f:
+
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'requirements.txt')) as f:
     requirements = f.read().splitlines()
 if __name__ == '__main__':
     setup(
