@@ -3,7 +3,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 if __name__ == '__main__':
     setup(
-        name='mlib',
+        name='mliamlib',
         version='1.0.0',
         license='CalTech',
         author='Lukas Mandrake',
