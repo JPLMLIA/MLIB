@@ -9,7 +9,7 @@ if __name__ == '__main__':
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
         url='https://github.com/JPLMLIA/MLIB',
-        download_url='THIS IS A STUB',
+        download_url='https://github.com/JPLMLIA/MLIB/archive/1.0.0.tar.gz',
         packages=find_packages(),
         include_package_data=True,
         package_data={},
