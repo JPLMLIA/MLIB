@@ -5,7 +5,7 @@ if __name__ == '__main__':
     setup(
         name='mliamlib',
         version='1.0.0',
-        license='CalTech',
+        license="MIT",
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
         url='https://github.com/JPLMLIA/MLIB',
@@ -18,7 +18,6 @@ if __name__ == '__main__':
             'Development Status :: 3 - Alpha',
             'Intended Audience :: Science/Research',
             'Intended Audience :: Education',
-            'License :: MIT License',
             'Natural Language :: English',
             'Operating System :: POSIX :: Linux',
             'Programming Language :: Python :: 3.6',
