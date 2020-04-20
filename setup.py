@@ -16,8 +16,8 @@ if __name__ == '__main__':
         install_requires=requirements,
         classifiers=[
             'Development Status :: 3 - Alpha',
-            'Indended Audience :: Science/Research',
-            'Indended Audience :: Education',
+            'Intended Audience :: Science/Research',
+            'Intended Audience :: Education',
             'License :: CalTech License',
             'Operating System :: POSIX :: Linux',
             'Programming Language :: Python :: 3.6 :: Only',
