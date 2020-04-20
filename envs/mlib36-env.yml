@@ -1,0 +1,28 @@
+name: mlib36
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.6
+  - basemap=1.2.0
+  - proj4=5.2.0
+  - cycler
+  - cython
+  - h5py
+  - ipython  # to have a nice python console
+  - matplotlib=3.1.1
+  - mne
+  - netCDF4
+  - numpy=1.17.2 # fix the version to guarantee np.random reproducibility for sklearn.manifold.TSNE tests
+  - pandas
+  - progressbar2
+  - proj4  # Needed for basemap to import
+  - pytest
+  - scipy
+  - seaborn
+  - scikit-learn=0.21.3
+  - statsmodels
+  - pip:
+      - mpltools
