@@ -15,6 +15,10 @@ $ conda update anaconda
 
 Assuming you have an up-to-date version of anaconda installed, you can install or update the environments with the commands below.
 
+##### Warning
+
+This library should be used in an environment that has basemap, and netCDF4 installed. An example conda environment is packaged with the project
+
 #### Initial Install
 ```bash
 $ conda env create -f envs/mlib27-env.yml

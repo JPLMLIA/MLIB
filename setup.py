@@ -1,13 +1,19 @@
-import os
+from pathlib import Path
 
 from setuptools import find_packages, setup
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
+
+
 if __name__ == '__main__':
     setup(
         name='mliamlib',
-        version='1.0.6',
+        version='1.0.7',
+        description='Various helper functions for python usage ',
+        long_description=long_description,
         license="MIT",
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
