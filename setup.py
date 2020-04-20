@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'requirements
 if __name__ == '__main__':
     setup(
         name='mliamlib',
-        version='1.0.0',
+        version='1.0.1',
         license="MIT",
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
