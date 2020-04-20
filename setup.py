@@ -18,8 +18,9 @@ if __name__ == '__main__':
             'Development Status :: 3 - Alpha',
             'Intended Audience :: Science/Research',
             'Intended Audience :: Education',
-            'License :: CalTech License',
+            'License :: MIT License',
+            'Natural Language :: English',
             'Operating System :: POSIX :: Linux',
-            'Programming Language :: Python :: 3.6 :: Only',
+            'Programming Language :: Python :: 3.6',
             'Topic :: Utilities'
         ])
