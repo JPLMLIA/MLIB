@@ -3,11 +3,11 @@ import os
 from setuptools import find_packages, setup
 with open(os.path.join('requirements.txt')) as f:
     requirements = f.read().splitlines()
-    
+
 if __name__ == '__main__':
     setup(
         name='mliamlib',
-        version='1.0.0',
+        version='1.0.2',
         license="MIT",
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
