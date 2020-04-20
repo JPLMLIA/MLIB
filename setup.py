@@ -1,13 +1,13 @@
 import os
 
 from setuptools import find_packages, setup
-
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'requirements.txt')) as f:
+with open(os.path.join('requirements.txt')) as f:
     requirements = f.read().splitlines()
+    
 if __name__ == '__main__':
     setup(
         name='mliamlib',
-        version='1.0.1',
+        version='1.0.0',
         license="MIT",
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
