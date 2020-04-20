@@ -3,7 +3,7 @@ apptools==4.4.0
 atomicwrites==1.2.1
 attrs==18.2.0
 backcall==0.1.0
-basemap==1.2.0
+basemap==1.0.7
 bz2file==0.98
 certifi==2018.11.29
 cftime==1.0.3.4

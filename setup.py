@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
 if __name__ == '__main__':
     setup(
         name='mliamlib',
-        version='1.0.4',
+        version='1.0.6',
         license="MIT",
         author='Lukas Mandrake',
         author_email='lukas.mandrake@jpl.caltech.edu',
