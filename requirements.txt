@@ -7,7 +7,7 @@ bz2file==0.98
 certifi==2018.11.29
 cftime==1.0.3.4
 configobj==5.0.6
-cvxopt==1.2.2
+cvxopt==1.2.7
 cycler==0.10.0
 Cython==0.29.3
 decorator==4.3.2
