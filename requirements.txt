@@ -27,7 +27,7 @@ more-itertools==4.3.0
 mpltools==0.2.0
 nibabel==2.3.3
 numexpr==2.6.9
-numpy==1.16.0
+numpy==1.22.0
 olefile==0.46
 pandas==0.24.0
 parso==0.3.2
